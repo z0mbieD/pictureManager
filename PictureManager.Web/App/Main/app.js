@@ -30,7 +30,15 @@
                     menuText: localize('About'),
                     menuItem: 'About'
                 }
+            },
+            {
+                url: '/picture',
+            config: {
+                templateUrl: '/App/Main/views/picture/picture.cshtml',
+                menuText: localize('Picture'),
+                menuItem: 'Picture'
             }
+        }
         ]);
 
     app.config([

@@ -8,7 +8,7 @@ using NHibernate.Linq;
 
 namespace PictureManager
 {
-    class PictureRepository
+    class PictureRepository : IPictureRepository
     {
         public void Save(Picture picture)
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PictureManager
 {
-    interface IPictureRepository
+    public interface IPictureRepository
     {
         void Save(Picture picture);
     }

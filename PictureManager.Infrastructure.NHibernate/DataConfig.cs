@@ -41,7 +41,7 @@ namespace PictureManager
 
         private static void PerformStartup()
         {
-            InitializeLog4Net();
+          //  InitializeLog4Net();
             InitializeSessionFactory();
             InitializeRepositories();
         }
@@ -61,14 +61,14 @@ namespace PictureManager
             .BuildConfiguration();
         }
 
-        private static void InitializeLog4Net()
+      /*  private static void InitializeLog4Net()
         {
             string configPath = Path.Combine(
             AppDomain.CurrentDomain.BaseDirectory,
             "log4Net.config");
             var fileInfo = new FileInfo(configPath);
             XmlConfigurator.ConfigureAndWatch(fileInfo);
-        }
+        }*/
 
         private static void InitializeRepositories()
         {

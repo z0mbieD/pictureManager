@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PictureManager
 {
-    class PictureRepositoryFactory
+    public class PictureRepositoryFactory
     {
         public static Func<IPictureRepository> RepositoryBuilder =
         CreateDefaultRepositoryBuilder;

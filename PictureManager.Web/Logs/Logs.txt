@@ -24,3 +24,224 @@ DEBUG 2014-09-16 16:33:35,965 [1    ] Abp.Modules.AbpModuleLoader              -
 DEBUG 2014-09-16 16:33:35,967 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerWebApiModule, PictureManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 DEBUG 2014-09-16 16:33:35,967 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.Web.PictureManagerWebModule, PictureManager.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 DEBUG 2014-09-16 16:33:36,585 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-09-17 10:46:36,201 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-09-17 10:46:36,438 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 10:46:36,440 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 10:46:36,442 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.NHibernate.AbpNHibernateModule, Abp.Infrastructure.NHibernate, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 10:46:36,446 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Startup.AbpWebModule, Abp.Web, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 10:46:36,446 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 10:46:36,449 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 10:46:37,060 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerCoreModule, PictureManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 10:46:37,060 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerApplicationModule, PictureManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 10:46:37,061 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerDataModule, PictureManager.Infrastructure.NHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 10:46:37,063 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerWebApiModule, PictureManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 10:46:37,063 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.Web.PictureManagerWebModule, PictureManager.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 10:46:37,561 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-09-17 10:58:25,858 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-09-17 10:58:27,410 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 10:58:27,411 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 10:58:27,414 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.NHibernate.AbpNHibernateModule, Abp.Infrastructure.NHibernate, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 10:58:27,417 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Startup.AbpWebModule, Abp.Web, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 10:58:27,417 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 10:58:27,421 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 10:58:27,806 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerCoreModule, PictureManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 10:58:27,807 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerApplicationModule, PictureManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 10:58:27,807 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerDataModule, PictureManager.Infrastructure.NHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 10:58:27,809 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerWebApiModule, PictureManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 10:58:27,809 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.Web.PictureManagerWebModule, PictureManager.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 10:58:28,015 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-09-17 11:14:09,302 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-09-17 11:14:09,375 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:14:09,376 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:14:09,379 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.NHibernate.AbpNHibernateModule, Abp.Infrastructure.NHibernate, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:14:09,383 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Startup.AbpWebModule, Abp.Web, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:14:09,383 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:14:09,386 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:14:09,766 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerCoreModule, PictureManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:14:09,766 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerApplicationModule, PictureManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:14:09,766 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerDataModule, PictureManager.Infrastructure.NHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:14:09,768 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerWebApiModule, PictureManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:14:09,768 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.Web.PictureManagerWebModule, PictureManager.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:14:09,959 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-09-17 11:23:26,346 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-09-17 11:23:27,817 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:23:27,819 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:23:27,821 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.NHibernate.AbpNHibernateModule, Abp.Infrastructure.NHibernate, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:23:27,825 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Startup.AbpWebModule, Abp.Web, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:23:27,825 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:23:27,828 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:23:28,235 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerCoreModule, PictureManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:23:28,235 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerApplicationModule, PictureManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:23:28,236 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerDataModule, PictureManager.Infrastructure.NHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:23:28,237 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerWebApiModule, PictureManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:23:28,238 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.Web.PictureManagerWebModule, PictureManager.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:23:28,454 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-09-17 11:23:58,818 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-09-17 11:24:00,053 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:24:00,054 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:24:00,057 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.NHibernate.AbpNHibernateModule, Abp.Infrastructure.NHibernate, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:24:00,062 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Startup.AbpWebModule, Abp.Web, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:24:00,062 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:24:00,065 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:24:00,483 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerCoreModule, PictureManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:24:00,483 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerApplicationModule, PictureManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:24:00,484 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerDataModule, PictureManager.Infrastructure.NHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:24:00,486 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerWebApiModule, PictureManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:24:00,486 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.Web.PictureManagerWebModule, PictureManager.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:24:00,714 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-09-17 11:25:24,376 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-09-17 11:25:25,571 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:25:25,572 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:25:25,575 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.NHibernate.AbpNHibernateModule, Abp.Infrastructure.NHibernate, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:25:25,578 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Startup.AbpWebModule, Abp.Web, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:25:25,578 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:25:25,582 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:25:25,989 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerCoreModule, PictureManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:25:25,989 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerApplicationModule, PictureManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:25:25,991 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerDataModule, PictureManager.Infrastructure.NHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:25:25,993 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerWebApiModule, PictureManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:25:25,993 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.Web.PictureManagerWebModule, PictureManager.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:25:26,212 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-09-17 11:27:00,135 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-09-17 11:27:01,974 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:27:01,976 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:27:01,978 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.NHibernate.AbpNHibernateModule, Abp.Infrastructure.NHibernate, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:27:01,982 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Startup.AbpWebModule, Abp.Web, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:27:01,982 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:27:01,986 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:27:02,385 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerCoreModule, PictureManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:27:02,385 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerApplicationModule, PictureManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:27:02,386 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerDataModule, PictureManager.Infrastructure.NHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:27:02,388 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerWebApiModule, PictureManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:27:02,388 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.Web.PictureManagerWebModule, PictureManager.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:27:02,623 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-09-17 11:27:47,829 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-09-17 11:27:49,116 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:27:49,117 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:27:49,120 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.NHibernate.AbpNHibernateModule, Abp.Infrastructure.NHibernate, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:27:49,123 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Startup.AbpWebModule, Abp.Web, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:27:49,123 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:27:49,127 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:27:49,511 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerCoreModule, PictureManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:27:49,511 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerApplicationModule, PictureManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:27:49,512 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerDataModule, PictureManager.Infrastructure.NHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:27:49,514 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerWebApiModule, PictureManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:27:49,514 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.Web.PictureManagerWebModule, PictureManager.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:27:49,723 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-09-17 11:28:21,667 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-09-17 11:28:23,146 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:28:23,147 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:28:23,149 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.NHibernate.AbpNHibernateModule, Abp.Infrastructure.NHibernate, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:28:23,153 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Startup.AbpWebModule, Abp.Web, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:28:23,153 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:28:23,156 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:28:23,553 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerCoreModule, PictureManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:28:23,553 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerApplicationModule, PictureManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:28:23,554 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerDataModule, PictureManager.Infrastructure.NHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:28:23,556 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerWebApiModule, PictureManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:28:23,556 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.Web.PictureManagerWebModule, PictureManager.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:28:23,780 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-09-17 11:29:14,968 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-09-17 11:29:16,154 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:29:16,155 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:29:16,157 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.NHibernate.AbpNHibernateModule, Abp.Infrastructure.NHibernate, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:29:16,161 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Startup.AbpWebModule, Abp.Web, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:29:16,161 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:29:16,164 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:29:16,560 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerCoreModule, PictureManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:29:16,560 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerApplicationModule, PictureManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:29:16,561 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerDataModule, PictureManager.Infrastructure.NHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:29:16,563 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerWebApiModule, PictureManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:29:16,563 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.Web.PictureManagerWebModule, PictureManager.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:29:16,777 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-09-17 11:31:10,364 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-09-17 11:31:11,244 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:31:11,245 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:31:11,247 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.NHibernate.AbpNHibernateModule, Abp.Infrastructure.NHibernate, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:31:11,251 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Startup.AbpWebModule, Abp.Web, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:31:11,251 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:31:11,254 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:31:11,651 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerCoreModule, PictureManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:31:11,651 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerApplicationModule, PictureManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:31:11,652 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerDataModule, PictureManager.Infrastructure.NHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:31:11,654 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerWebApiModule, PictureManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:31:11,654 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.Web.PictureManagerWebModule, PictureManager.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:31:11,873 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-09-17 11:35:04,114 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-09-17 11:35:05,881 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:35:05,882 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:35:05,885 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.NHibernate.AbpNHibernateModule, Abp.Infrastructure.NHibernate, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:35:05,888 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Startup.AbpWebModule, Abp.Web, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:35:05,888 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:35:05,892 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:35:06,288 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerCoreModule, PictureManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:35:06,288 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerApplicationModule, PictureManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:35:06,289 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerDataModule, PictureManager.Infrastructure.NHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:35:06,290 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerWebApiModule, PictureManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:35:06,290 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.Web.PictureManagerWebModule, PictureManager.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 11:35:06,505 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-09-17 12:49:37,206 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-09-17 12:49:38,241 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 12:49:38,242 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 12:49:38,245 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.NHibernate.AbpNHibernateModule, Abp.Infrastructure.NHibernate, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 12:49:38,249 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Startup.AbpWebModule, Abp.Web, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 12:49:38,249 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 12:49:38,253 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 12:49:38,752 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerCoreModule, PictureManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 12:49:38,752 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerApplicationModule, PictureManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 12:49:38,753 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerDataModule, PictureManager.Infrastructure.NHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 12:49:38,755 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerWebApiModule, PictureManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 12:49:38,756 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.Web.PictureManagerWebModule, PictureManager.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 12:49:39,118 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-09-17 13:02:01,013 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-09-17 13:02:02,462 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:02:02,464 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:02:02,467 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.NHibernate.AbpNHibernateModule, Abp.Infrastructure.NHibernate, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:02:02,471 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Startup.AbpWebModule, Abp.Web, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:02:02,471 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:02:02,476 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:02:02,927 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerCoreModule, PictureManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:02:02,927 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerApplicationModule, PictureManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:02:02,928 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerDataModule, PictureManager.Infrastructure.NHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:02:02,930 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerWebApiModule, PictureManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:02:02,930 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.Web.PictureManagerWebModule, PictureManager.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:02:03,259 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-09-17 13:05:50,992 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-09-17 13:05:52,819 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:05:52,820 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:05:52,824 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.NHibernate.AbpNHibernateModule, Abp.Infrastructure.NHibernate, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:05:52,828 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Startup.AbpWebModule, Abp.Web, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:05:52,828 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:05:52,831 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:05:53,234 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerCoreModule, PictureManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:05:53,234 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerApplicationModule, PictureManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:05:53,235 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerDataModule, PictureManager.Infrastructure.NHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:05:53,237 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerWebApiModule, PictureManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:05:53,237 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.Web.PictureManagerWebModule, PictureManager.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:05:53,550 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-09-17 13:08:07,570 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-09-17 13:08:09,465 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:08:09,467 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:08:09,472 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.NHibernate.AbpNHibernateModule, Abp.Infrastructure.NHibernate, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:08:09,478 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Startup.AbpWebModule, Abp.Web, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:08:09,478 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:08:09,483 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:08:09,964 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerCoreModule, PictureManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:08:09,964 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerApplicationModule, PictureManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:08:09,965 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerDataModule, PictureManager.Infrastructure.NHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:08:09,967 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerWebApiModule, PictureManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:08:09,967 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.Web.PictureManagerWebModule, PictureManager.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:08:10,292 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
+DEBUG 2014-09-17 13:18:54,901 [1    ] Abp.Modules.AbpModuleLoader              - Loading Abp modules...
+DEBUG 2014-09-17 13:18:56,439 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Application.AbpApplicationModule, Abp.Application, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:18:56,441 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Modules.AbpStartupModule, Abp, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:18:56,445 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Startup.Infrastructure.NHibernate.AbpNHibernateModule, Abp.Infrastructure.NHibernate, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:18:56,451 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Startup.AbpWebModule, Abp.Web, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:18:56,451 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.WebApi.Startup.AbpWebApiModule, Abp.Web.Api, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:18:56,457 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: Abp.Web.Mvc.Startup.AbpWebMvcModule, Abp.Web.Mvc, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:18:57,073 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerCoreModule, PictureManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:18:57,073 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerApplicationModule, PictureManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:18:57,075 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerDataModule, PictureManager.Infrastructure.NHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:18:57,077 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.PictureManagerWebApiModule, PictureManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:18:57,078 [1    ] Abp.Modules.AbpModuleLoader              - Loaded module: PictureManager.Web.PictureManagerWebModule, PictureManager.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-09-17 13:18:57,389 [1    ] Abp.Modules.AbpModuleLoader              - 11 modules loaded.
