@@ -56,8 +56,17 @@
     <Reference Include="FluentNHibernate">
       <HintPath>..\packages\FluentNHibernate.1.4.0.0\lib\net35\FluentNHibernate.dll</HintPath>
     </Reference>
+    <Reference Include="GurkBurk">
+      <HintPath>..\packages\nbehave.0.6.2\lib\net40\GurkBurk.dll</HintPath>
+    </Reference>
     <Reference Include="Iesi.Collections">
       <HintPath>..\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="NBehave.Gherkin">
+      <HintPath>..\packages\nbehave.0.6.2\lib\net40\NBehave.Gherkin.dll</HintPath>
+    </Reference>
+    <Reference Include="NBehave.Narrator.Framework">
+      <HintPath>..\packages\nbehave.0.6.2\lib\net40\NBehave.Narrator.Framework.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -79,6 +88,8 @@
   <ItemGroup>
     <Compile Include="DataConfig.cs" />
     <Compile Include="DbMigrations\VersionTable.cs" />
+    <Compile Include="NHibernate\EntityMappings\UserMap.cs" />
+    <Compile Include="NHibernate\Repositories\UserRepository.cs" />
     <Compile Include="PictureManagerDataModule.cs" />
     <Compile Include="NHibernate\EntityMappings\PictureMap.cs" />
     <Compile Include="NHibernate\Repositories\PictureRepository.cs" />
@@ -87,6 +98,7 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+    <None Include="Resharper.feature" />
     <None Include="RunMigrations.bat" />
   </ItemGroup>
   <ItemGroup>
@@ -95,7 +107,16 @@
       <Name>PictureManager.Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="scripts\angular-file-upload-html5-shim.js" />
+    <Content Include="scripts\angular-file-upload-html5-shim.min.js" />
+    <Content Include="scripts\angular-file-upload-shim.js" />
+    <Content Include="scripts\angular-file-upload-shim.min.js" />
+    <Content Include="scripts\angular-file-upload.js" />
+    <Content Include="scripts\angular-file-upload.min.js" />
+    <Content Include="scripts\FileAPI.flash.swf" />
+    <Content Include="scripts\FileAPI.min.js" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

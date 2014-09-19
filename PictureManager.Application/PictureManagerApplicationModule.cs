@@ -22,6 +22,8 @@ namespace PictureManager
         {
             base.Initialize(initializationContext);
             IocManager.Instance.RegisterAssemblyByConvention(Assembly.GetExecutingAssembly());
+            
+            DtoMappings.Map();
         }
     }
 }

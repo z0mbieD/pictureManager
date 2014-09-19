@@ -65,6 +65,15 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Castle.Windsor.3.3.0\lib\net45\Castle.Windsor.dll</HintPath>
     </Reference>
+    <Reference Include="GurkBurk">
+      <HintPath>..\packages\nbehave.0.6.2\lib\net40\GurkBurk.dll</HintPath>
+    </Reference>
+    <Reference Include="NBehave.Gherkin">
+      <HintPath>..\packages\nbehave.0.6.2\lib\net40\NBehave.Gherkin.dll</HintPath>
+    </Reference>
+    <Reference Include="NBehave.Narrator.Framework">
+      <HintPath>..\packages\nbehave.0.6.2\lib\net40\NBehave.Narrator.Framework.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -101,8 +110,18 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+    <None Include="Resharper.feature" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="scripts\angular-file-upload-html5-shim.js" />
+    <Content Include="scripts\angular-file-upload-html5-shim.min.js" />
+    <Content Include="scripts\angular-file-upload-shim.js" />
+    <Content Include="scripts\angular-file-upload-shim.min.js" />
+    <Content Include="scripts\angular-file-upload.js" />
+    <Content Include="scripts\angular-file-upload.min.js" />
+    <Content Include="scripts\FileAPI.flash.swf" />
+    <Content Include="scripts\FileAPI.min.js" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PictureManager.Application\PictureManager.Application.csproj">
       <Project>{EDF5D964-4C0F-4F19-B674-58A38A5E5401}</Project>

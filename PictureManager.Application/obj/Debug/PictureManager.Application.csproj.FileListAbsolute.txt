@@ -8,7 +8,6 @@ E:\PictureManager\PictureManager.Application\bin\Debug\AutoMapper.dll
 E:\PictureManager\PictureManager.Application\bin\Debug\Castle.Core.dll
 E:\PictureManager\PictureManager.Application\bin\Debug\Castle.Facilities.Logging.dll
 E:\PictureManager\PictureManager.Application\bin\Debug\Castle.Windsor.dll
-E:\PictureManager\PictureManager.Application\bin\Debug\mscorlib.dll
 E:\PictureManager\PictureManager.Application\bin\Debug\PictureManager.Core.dll
 E:\PictureManager\PictureManager.Application\bin\Debug\System.Collections.Immutable.dll
 E:\PictureManager\PictureManager.Application\bin\Debug\PictureManager.Core.pdb
@@ -19,11 +18,9 @@ E:\PictureManager\PictureManager.Application\bin\Debug\Castle.Core.xml
 E:\PictureManager\PictureManager.Application\bin\Debug\Castle.Facilities.Logging.xml
 E:\PictureManager\PictureManager.Application\bin\Debug\Castle.Windsor.xml
 E:\PictureManager\PictureManager.Application\bin\Debug\System.Collections.Immutable.xml
-E:\PictureManager\PictureManager.Application\bin\Debug\normidna.nlp
-E:\PictureManager\PictureManager.Application\bin\Debug\normnfc.nlp
-E:\PictureManager\PictureManager.Application\bin\Debug\normnfd.nlp
-E:\PictureManager\PictureManager.Application\bin\Debug\normnfkc.nlp
-E:\PictureManager\PictureManager.Application\bin\Debug\normnfkd.nlp
 E:\PictureManager\PictureManager.Application\obj\Debug\PictureManager.Application.csprojResolveAssemblyReference.cache
 E:\PictureManager\PictureManager.Application\obj\Debug\PictureManager.Application.dll
 E:\PictureManager\PictureManager.Application\obj\Debug\PictureManager.Application.pdb
+E:\pictureManager\PictureManager.Application\bin\Debug\GurkBurk.dll
+E:\pictureManager\PictureManager.Application\bin\Debug\NBehave.Gherkin.dll
+E:\pictureManager\PictureManager.Application\bin\Debug\NBehave.Narrator.Framework.dll

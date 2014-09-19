@@ -46,6 +46,15 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Castle.Windsor.3.3.0\lib\net45\Castle.Windsor.dll</HintPath>
     </Reference>
+    <Reference Include="GurkBurk">
+      <HintPath>..\packages\nbehave.0.6.2\lib\net40\GurkBurk.dll</HintPath>
+    </Reference>
+    <Reference Include="NBehave.Gherkin">
+      <HintPath>..\packages\nbehave.0.6.2\lib\net40\NBehave.Gherkin.dll</HintPath>
+    </Reference>
+    <Reference Include="NBehave.Narrator.Framework">
+      <HintPath>..\packages\nbehave.0.6.2\lib\net40\NBehave.Narrator.Framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Collections.Immutable, Version=1.0.34.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -60,16 +69,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IPictureRepository.cs" />
-    <Compile Include="Picture.cs" />
+    <Compile Include="Picture\IPictureRepository.cs" />
+    <Compile Include="Picture\Picture.cs" />
     <Compile Include="PictureManagerCoreModule.cs" />
-    <Compile Include="PictureRepositoryFactory.cs" />
+    <Compile Include="Picture\PictureRepositoryFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User\IUserRepository.cs" />
+    <Compile Include="User\UserRepositoryFactory.cs" />
+    <Compile Include="User\User.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+    <None Include="Resharper.feature" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="scripts\angular-file-upload-html5-shim.js" />
+    <Content Include="scripts\angular-file-upload-html5-shim.min.js" />
+    <Content Include="scripts\angular-file-upload-shim.js" />
+    <Content Include="scripts\angular-file-upload-shim.min.js" />
+    <Content Include="scripts\angular-file-upload.js" />
+    <Content Include="scripts\angular-file-upload.min.js" />
+    <Content Include="scripts\FileAPI.flash.swf" />
+    <Content Include="scripts\FileAPI.min.js" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -32,7 +32,7 @@ namespace PictureManager
                 {
                     if (!_startupComplete)
                     {
-                        DataConfig.PerformStartup();
+                     //   DataConfig.PerformStartup();
                         _startupComplete = true;
                     }
                 }
@@ -55,9 +55,9 @@ namespace PictureManager
         public static Configuration BuildConfiguration()
         {
             return Fluently.Configure(new Configuration().Configure())
-            .Mappings(cfg =>
-                cfg.FluentMappings
-            .AddFromAssembly(typeof(PictureMap).Assembly))
+         //   .Mappings(cfg =>
+         //       cfg.FluentMappings
+        //    .AddFromAssembly(typeof(PictureMap).Assembly))
             .BuildConfiguration();
         }
 

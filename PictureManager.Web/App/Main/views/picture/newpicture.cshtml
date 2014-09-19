@@ -1,0 +1,24 @@
+﻿<div ng-controller="app.controllers.views.picture.newpicture as vm">
+    <form id="NewPictureForm" role="form" name="newPictureForm" novalidate>
+        <div class="form-group">
+            PictureName
+            <input type="text" id="PictureName" ng-model="vm.picture.pictureName"
+                   class="form-control" placeholder="EnterPictureNameHere" required></input>
+            PictureDescription
+            <textarea id="PictureDescription" ng-model="vm.picture.description"
+                      class="form-control" rows="3" placeholder="EnterPictureDescriptionHere"></textarea>
+            <div>
+                Upload new image:
+                
+                  <input type="file" ng-model="vm.picture.pictureFile" accept="image/*" name="file" onchange="angular.element(this).scope().fileSelect(this.files)" />
+               <!--   
+                <input type="file" ng-model="vm.picture.pictureFile" ng-file-select="onFileSelect($files)" accept="image/*" /> -->
+                
+            </div>
+        </div>
+        <button ng-click="vm.savePicture()" ng-disabled="newPictureForm.$invalid" type="submit"
+                class="btn btn-primary">
+            CreateTheTask
+        </button>
+    </form>
+</div>

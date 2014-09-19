@@ -12,13 +12,11 @@ E:\PictureManager\PictureManager.Web\bin\Castle.Facilities.Logging.dll
 E:\PictureManager\PictureManager.Web\bin\Castle.Services.Logging.Log4netIntegration.dll
 E:\PictureManager\PictureManager.Web\bin\Castle.Windsor.dll
 E:\PictureManager\PictureManager.Web\bin\log4net.dll
-E:\PictureManager\PictureManager.Web\bin\mscorlib.dll
 E:\PictureManager\PictureManager.Web\bin\Newtonsoft.Json.dll
 E:\PictureManager\PictureManager.Web\bin\PictureManager.Application.dll
 E:\PictureManager\PictureManager.Web\bin\PictureManager.Infrastructure.NHibernate.dll
 E:\PictureManager\PictureManager.Web\bin\PictureManager.WebApi.dll
 E:\PictureManager\PictureManager.Web\bin\System.Collections.Immutable.dll
-E:\PictureManager\PictureManager.Web\bin\System.Net.Http.dll
 E:\PictureManager\PictureManager.Web\bin\System.Net.Http.Formatting.dll
 E:\PictureManager\PictureManager.Web\bin\System.Web.Helpers.dll
 E:\PictureManager\PictureManager.Web\bin\System.Web.Http.dll
@@ -52,7 +50,6 @@ E:\PictureManager\PictureManager.Web\bin\Castle.Windsor.xml
 E:\PictureManager\PictureManager.Web\bin\log4net.xml
 E:\PictureManager\PictureManager.Web\bin\Newtonsoft.Json.xml
 E:\PictureManager\PictureManager.Web\bin\System.Collections.Immutable.xml
-E:\PictureManager\PictureManager.Web\bin\System.Net.Http.xml
 E:\PictureManager\PictureManager.Web\bin\System.Net.Http.Formatting.xml
 E:\PictureManager\PictureManager.Web\bin\System.Web.Helpers.xml
 E:\PictureManager\PictureManager.Web\bin\System.Web.Http.xml
@@ -71,11 +68,10 @@ E:\PictureManager\PictureManager.Web\bin\FluentNHibernate.xml
 E:\PictureManager\PictureManager.Web\bin\Abp.Web.Api.xml
 E:\PictureManager\PictureManager.Web\bin\NHibernate.xml
 E:\PictureManager\PictureManager.Web\bin\Iesi.Collections.xml
-E:\PictureManager\PictureManager.Web\bin\normidna.nlp
-E:\PictureManager\PictureManager.Web\bin\normnfc.nlp
-E:\PictureManager\PictureManager.Web\bin\normnfd.nlp
-E:\PictureManager\PictureManager.Web\bin\normnfkc.nlp
-E:\PictureManager\PictureManager.Web\bin\normnfkd.nlp
 E:\PictureManager\PictureManager.Web\obj\Debug\PictureManager.Web.csprojResolveAssemblyReference.cache
 E:\PictureManager\PictureManager.Web\obj\Debug\PictureManager.Web.dll
 E:\PictureManager\PictureManager.Web\obj\Debug\PictureManager.Web.pdb
+E:\pictureManager\PictureManager.Web\bin\PictureManager.Web.dll.config
+E:\pictureManager\PictureManager.Web\bin\GurkBurk.dll
+E:\pictureManager\PictureManager.Web\bin\NBehave.Gherkin.dll
+E:\pictureManager\PictureManager.Web\bin\NBehave.Narrator.Framework.dll

@@ -3,21 +3,27 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Abp.Domain.Repositories;
+using Abp.Domain.Repositories.NHibernate;
 using NHibernate;
 using NHibernate.Linq;
 
 namespace PictureManager
 {
-    class PictureRepository : IPictureRepository
+    public class PictureRepository : NhRepositoryBase<Picture, int>, IPictureRepository
     {
-        public void Save(Picture picture)
+        public List<Picture> GetAllPictures()
         {
-            using (ISession session = DataConfig.GetSession())
-            {
-                session.BeginTransaction();
-                session.SaveOrUpdate(picture);
-                session.Transaction.Commit();
-            }
+            var query = GetAll();
+           // var query = Session.Query<Picture>();
+
+          //  if (Id.HasValue)
+           // {
+                query = query.Where(picture => picture.Id > 0);
+           // }
+
+            return query
+                .ToList();
         }
     }
 }

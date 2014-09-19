@@ -9,7 +9,6 @@ E:\PictureManager\PictureManager.Infrastructure.NHibernate\bin\Debug\Castle.Wind
 E:\PictureManager\PictureManager.Infrastructure.NHibernate\bin\Debug\FluentMigrator.dll
 E:\PictureManager\PictureManager.Infrastructure.NHibernate\bin\Debug\FluentNHibernate.dll
 E:\PictureManager\PictureManager.Infrastructure.NHibernate\bin\Debug\Iesi.Collections.dll
-E:\PictureManager\PictureManager.Infrastructure.NHibernate\bin\Debug\mscorlib.dll
 E:\PictureManager\PictureManager.Infrastructure.NHibernate\bin\Debug\NHibernate.dll
 E:\PictureManager\PictureManager.Infrastructure.NHibernate\bin\Debug\PictureManager.Core.dll
 E:\PictureManager\PictureManager.Infrastructure.NHibernate\bin\Debug\System.Collections.Immutable.dll
@@ -25,11 +24,9 @@ E:\PictureManager\PictureManager.Infrastructure.NHibernate\bin\Debug\FluentNHibe
 E:\PictureManager\PictureManager.Infrastructure.NHibernate\bin\Debug\Iesi.Collections.xml
 E:\PictureManager\PictureManager.Infrastructure.NHibernate\bin\Debug\NHibernate.xml
 E:\PictureManager\PictureManager.Infrastructure.NHibernate\bin\Debug\System.Collections.Immutable.xml
-E:\PictureManager\PictureManager.Infrastructure.NHibernate\bin\Debug\normidna.nlp
-E:\PictureManager\PictureManager.Infrastructure.NHibernate\bin\Debug\normnfc.nlp
-E:\PictureManager\PictureManager.Infrastructure.NHibernate\bin\Debug\normnfd.nlp
-E:\PictureManager\PictureManager.Infrastructure.NHibernate\bin\Debug\normnfkc.nlp
-E:\PictureManager\PictureManager.Infrastructure.NHibernate\bin\Debug\normnfkd.nlp
 E:\PictureManager\PictureManager.Infrastructure.NHibernate\obj\Debug\PictureManager.Infrastructure.NHibernate.csprojResolveAssemblyReference.cache
 E:\PictureManager\PictureManager.Infrastructure.NHibernate\obj\Debug\PictureManager.Infrastructure.NHibernate.dll
 E:\PictureManager\PictureManager.Infrastructure.NHibernate\obj\Debug\PictureManager.Infrastructure.NHibernate.pdb
+E:\pictureManager\PictureManager.Infrastructure.NHibernate\bin\Debug\GurkBurk.dll
+E:\pictureManager\PictureManager.Infrastructure.NHibernate\bin\Debug\NBehave.Gherkin.dll
+E:\pictureManager\PictureManager.Infrastructure.NHibernate\bin\Debug\NBehave.Narrator.Framework.dll

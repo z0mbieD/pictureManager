@@ -18,27 +18,27 @@
             {
                 url: '/', //default
                 config: {
-                    templateUrl: '/App/Main/views/home/home.cshtml',
-                    menuText: localize('HomePage'),
-                    menuItem: 'HomePage'
+                    templateUrl: '/App/Main/views/picture/picture.cshtml',
+                    menuText: localize('Picture'),
+                    menuItem: 'Picture'
                 }
             },
             {
-                url: '/about',
+                url: '/new',
                 config: {
-                    templateUrl: '/App/Main/views/about/about.cshtml',
-                    menuText: localize('About'),
-                    menuItem: 'About'
+                    templateUrl: '/App/Main/views/picture/newpicture.cshtml',
+                    menuText: localize('New'),
+                    menuItem: 'New'
                 }
             },
             {
-                url: '/picture',
-            config: {
-                templateUrl: '/App/Main/views/picture/picture.cshtml',
-                menuText: localize('Picture'),
-                menuItem: 'Picture'
-            }
-        }
+                url: '/singup',
+                config: {
+                    templateUrl: '/App/Main/views/user/singup.cshtml',
+                    menuText: localize('Register'),
+                    menuItem: 'Register'
+                }
+        } 
         ]);
 
     app.config([

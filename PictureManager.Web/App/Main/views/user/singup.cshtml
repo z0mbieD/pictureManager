@@ -1,0 +1,14 @@
+﻿<div ng-controller="app.controllers.views.user.singup as vm">
+    <form id="Registration" role="form" name="registration" novalidate>
+        <div class="form-group">
+            <input type="text" id="Login" ng-model="vm.user.login"
+                   class="form-control" placeholder="Логин" style="width: 400px;" required />
+            <br>
+            <input type="password" id="Password" ng-model="vm.user.password"
+                   class="form-control" placeholder="Пароль" style="width: 400px;" required />
+        </div>
+        <button ng-click="vm.saveUser()" ng-disabled="registration.$invalid" type="submit" class="btn btn-primary">
+            Зарегистрироваться
+        </button>
+    </form>
+</div>

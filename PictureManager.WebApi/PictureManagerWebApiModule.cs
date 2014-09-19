@@ -4,6 +4,7 @@ using Abp.Dependency;
 using Abp.Modules;
 using Abp.Startup;
 using Abp.Startup.Application;
+using Abp.WebApi.Controllers.Dynamic.Builders;
 using Abp.WebApi.Startup;
 
 namespace PictureManager
@@ -24,6 +25,14 @@ namespace PictureManager
         {
             base.Initialize(initializationContext);
             IocManager.Instance.RegisterAssemblyByConvention(Assembly.GetExecutingAssembly());
+
+            DynamicApiControllerBuilder
+                .For<IPictureAppService>("picturemanager/picture")
+                .Build();
+
+            DynamicApiControllerBuilder
+                .For<IUserAppService>("picturemanager/user")
+                .Build();
         }
     }
 }

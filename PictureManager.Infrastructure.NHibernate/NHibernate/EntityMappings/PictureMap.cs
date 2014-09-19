@@ -3,17 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using FluentNHibernate.Mapping;
+using Abp.Domain.Entities.Mapping;
 
 namespace PictureManager
 {
-    class PictureMap :  ClassMap<Picture>
+    public class PictureMap : EntityMap<Picture, int>
     {
         public PictureMap()
+            : base("Pictures")
         {
-            Not.LazyLoad();
-            Table("Pictures");
-            Id(x => x.Id);
             Map(x => x.PictureName);
             Map(x => x.Tags);
             Map(x => x.Description);
