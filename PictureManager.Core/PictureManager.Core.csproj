@@ -69,6 +69,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Comment\ICommentRepository.cs" />
+    <Compile Include="Comment\Comment.cs" />
+    <Compile Include="Comment\CommentRepositoryFactory.cs" />
     <Compile Include="Picture\IPictureRepository.cs" />
     <Compile Include="Picture\Picture.cs" />
     <Compile Include="PictureManagerCoreModule.cs" />

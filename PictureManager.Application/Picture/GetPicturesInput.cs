@@ -9,5 +9,6 @@ namespace PictureManager
 {
     public class GetPicturesInput : IInputDto
     {
+        public int? UserId { get; set; }
     }
 }

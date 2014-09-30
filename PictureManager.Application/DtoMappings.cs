@@ -13,6 +13,7 @@ namespace PictureManager
         {
             Mapper.CreateMap<Picture, PictureDto>();
             Mapper.CreateMap<User, UserDto>();
+            Mapper.CreateMap<Comment, CommentDto>();
         }
     }
 }

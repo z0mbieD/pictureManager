@@ -1,0 +1,15 @@
+﻿<div ng-controller="app.controllers.views.user.login as vm">
+    <div class="alert alert-danger" role="alert" ng-show="message">{{message}}</div>
+    <form id="Login" role="form" name="login" novalidate>
+        <div class="form-group">
+            <input type="text" id="Login" ng-model="vm.user.login"
+                   class="form-control" placeholder="Логин" style="width: 400px;" required />
+            <br>
+            <input type="password" id="Password" ng-model="vm.user.password"
+                   class="form-control" placeholder="Пароль" style="width: 400px;" required />
+        </div>
+        <button ng-click="vm.login()" ng-disabled="registration.$invalid" type="submit" class="btn btn-primary">
+            Войти
+        </button>
+    </form>
+</div>

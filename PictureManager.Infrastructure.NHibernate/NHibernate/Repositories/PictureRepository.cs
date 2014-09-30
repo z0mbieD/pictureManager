@@ -12,17 +12,17 @@ namespace PictureManager
 {
     public class PictureRepository : NhRepositoryBase<Picture, int>, IPictureRepository
     {
-        public List<Picture> GetAllPictures()
+        public List<Picture> GetAllPictures(int? userId)
         {
             var query = GetAll();
-           // var query = Session.Query<Picture>();
 
-          //  if (Id.HasValue)
-           // {
-                query = query.Where(picture => picture.Id > 0);
-           // }
+            if (userId.HasValue)
+            {
+                query = query.Where(picture => picture.AssignedUser.Id == userId.Value);
+            }
 
             return query
+                .Fetch(picture => picture.AssignedUser)
                 .ToList();
         }
     }

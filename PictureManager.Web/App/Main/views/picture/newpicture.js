@@ -3,42 +3,70 @@
 
     var controllerId = 'app.controllers.views.picture.newpicture';
     app.controller(controllerId, [
-        '$scope', '$location', 'abp.services.picturemanager.picture',
-        function ($scope, $location, pictureService) {
+        '$scope', '$http', '$location', '$rootScope', 'abp.services.picturemanager.picture', 'abp.services.picturemanager.user',
+        function ($scope, $http, $location, $rootScope, pictureService, userService) {
             var vm = this;
 
-            vm.picture = {
+            $scope.picture = {
                 pictureName: '',
-                tag: '',
+                tags: '',
                 description: '',
                 pictureFile: '',
+                pictureMimeType: '',
+                userId: null,
+                pictureData: ''
             };
 
             var localize = abp.localization.getSource('PictureManager');
 
-            $scope.fileSelect = function(files) {
-                var file = new FormData();
-              //  formData.append("model", angular.toJson(data.model));
-                file.append("file", files[0]);
-                //  var file = files[0];
-                vm.picture.pictureFile = file;
+            document.getElementById('file-input').onchange = function (e) {
+                loadImage(
+                    e.target.files[0],
+                    function (img) {
+                        document.getElementById("ItemPreview").appendChild(img);
+                        var imgData = getBase64Image(img);
+                        $scope.picture.pictureData = imgData;
+                        $scope.picture.pictureMimeType = img._type;
+                    },
+                    { maxWidth: 400 }
+                );
+            }; 
 
-              //  var str = JSON.stringify(event);
-                console.log(file);
+            function getBase64Image(imgElem) {
+                var canvas = document.createElement('CANVAS');
+                var ctx = canvas.getContext('2d');
+                var img = new Image;
+                img = imgElem;
                 
-            };
-
+                var outputFormat = imgElem._type;
+                    canvas.height = img.height;
+                    canvas.width = img.width;
+                    ctx.drawImage(img, 0, 0);
+                    var dataURL = canvas.toDataURL(outputFormat || 'image/png');
+                    return dataURL.replace(/^data:image\/(png|jpg|jpeg);base64,/, "");
+                    canvas = null;
+            }
             
-         //   debugger;
-            vm.savePicture = function () {
-                abp.ui.setBusy(null, {
-                    promise: pictureService.addPicture(vm.picture)
-                        .success(function () {
-                            $location.path('/');
-                        })
-                });
-            };
+            $scope.savePicture = function () {
+                if ($rootScope.userName != '') {
+                    $scope.user = {
+                        login: $rootScope.userName
+                    };
 
+                    userService.getUserByName($scope.user)
+                        .success(function (data) {
+                            if (data > 0) {
+                                $scope.picture.userId = data;
+                                pictureService.addPicture($scope.picture)
+                                    .success(function () {
+                                        $location.path('/');
+                                    });
+                            } else {
+                                $location.path('/login');
+                            }
+                        });
+                }
+            };
         }
     ]);
 })();

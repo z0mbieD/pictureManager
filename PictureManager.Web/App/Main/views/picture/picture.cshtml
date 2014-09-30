@@ -1,10 +1,32 @@
 ﻿<div ng-controller="app.controllers.views.picture.picture as vm">
-    <h1>@string.Format("Загруженные изображения")</h1>
-
-    <ul class="list-group" ng-repeat="picture in vm.pictures">
-        <div class="list-group-item">
-            <span class="picture-picturename">{{picture.pictureName}}</span>
-            <span class="picture-dateadded">{{picture.dateAdded}}</span>
-        </div>
-    </ul>
+    <section ng-hide="!pictureObject">
+        <section style="width: 40%; float: left;">
+            <div class="form-group">
+                <img class="img-rounded" width="400" src="data:{{vm.picture.pictureMimeType}};base64,{{vm.picture.pictureData}}" />
+                <br />
+                <h4><span class="picture-picturename">{{vm.picture.pictureName}}</span></h4>
+                <span class="picture-dateadded">{{vm.picture.description}}</span>
+                <br />
+                <span class="picture-dateadded">{{vm.picture.tags}}</span>
+            </div>
+            <form id="NewComment" role="form" name="newComment" novalidate>
+                <div class="input-group">
+                    <input type="text" id="PictureComment" ng-model="vm.comment.text" class="form-control" placeholder="Комментируй!">
+                    <span class="input-group-btn">
+                        <button type="button" ng-click="saveComment()" ng-disabled="newComment.$invalid" type="submit"
+                                class="btn btn-default">
+                            Сохранить
+                        </button>
+                    </span>
+                </div>
+            </form>
+        </section>
+        <aside style="float: left; width: 55%;">
+            <ul class="list-group" ng-repeat="comment in vm.comments">
+                <div class="list-group-item">
+                    <span class="comment-item">{{comment.text}}</span>
+                </div>
+            </ul>
+        </aside>
+    </section>          
 </div>

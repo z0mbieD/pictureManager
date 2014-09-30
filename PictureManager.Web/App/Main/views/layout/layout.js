@@ -15,7 +15,8 @@
     ];
     
     var controllerId = 'app.controllers.views.layout';
-    app.controller(controllerId, ['routes','$scope', function (routes, $scope) {
+    app.controller(controllerId, ['$scope', '$rootScope', '$location', 'routes', 'abp.services.picturemanager.user',
+        function ($scope, $rootScope, $location, routes, userService) {
         var that = this;
 
         that.routes = routes;
@@ -38,12 +39,40 @@
                     return languages[i].displayName;
                 }
             }
-
             return '';
         };
 
         that.isCurrentLanguage = function(lang) {
             return abp.localization.isCurrentCulture(lang);
+        };
+
+        $scope.logOut = function () {
+            abp.ui.setBusy(null, {
+                promise: userService.logOff()
+                    .success(function (data) {
+                        $rootScope.isAuth = false;
+                        $rootScope.userName = '';
+                        $location.path('/');
+                    })
+            });
+
+        };
+
+        $scope.goToProfile = function (userObject) {
+            $scope.user = {
+                id: 0,
+                login: $rootScope.userName
+            };
+            userService.getUserByName($scope.user)
+                .success(function (data) {
+                    if (data > 0) {
+                        $scope.user.id = data;
+                        $rootScope.userObject = $scope.user;
+                        $location.path('/profile');
+                    } else {
+                       // $location.path('/login');
+                    }
+                });       
         };
 
     }]);

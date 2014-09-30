@@ -1,24 +1,28 @@
-﻿<div ng-controller="app.controllers.views.picture.newpicture as vm">
+﻿<div ng-controller="app.controllers.views.picture.newpicture">
     <form id="NewPictureForm" role="form" name="newPictureForm" novalidate>
         <div class="form-group">
-            PictureName
-            <input type="text" id="PictureName" ng-model="vm.picture.pictureName"
-                   class="form-control" placeholder="EnterPictureNameHere" required></input>
-            PictureDescription
-            <textarea id="PictureDescription" ng-model="vm.picture.description"
-                      class="form-control" rows="3" placeholder="EnterPictureDescriptionHere"></textarea>
             <div>
-                Upload new image:
-                
-                  <input type="file" ng-model="vm.picture.pictureFile" accept="image/*" name="file" onchange="angular.element(this).scope().fileSelect(this.files)" />
-               <!--   
-                <input type="file" ng-model="vm.picture.pictureFile" ng-file-select="onFileSelect($files)" accept="image/*" /> -->
-                
+                <div class="img-rounded" id="ItemPreview">
+                </div>
+                <br>
+                <input type="file" ng-model="vm.picture.pictureFile" id="file-input" name="files[]" accept="image/*" /> 
             </div>
+            <br>
+            Наименование
+            <input type="text" id="PictureName" ng-model="picture.pictureName"
+                   class="form-control" placeholder="Введите наименование" required />
+            <br>
+            Теги
+            <input type="text" id="PictureTag" ng-model="picture.tags"
+                   class="form-control" placeholder="Введите теги через запятую" required />
+            <br>
+            Описание
+            <textarea id="PictureDescription" ng-model="picture.description"
+                      class="form-control" rows="3" placeholder="Введите описание"></textarea>
         </div>
-        <button ng-click="vm.savePicture()" ng-disabled="newPictureForm.$invalid" type="submit"
+        <button ng-click="savePicture()" ng-disabled="newPictureForm.$invalid" type="submit"
                 class="btn btn-primary">
-            CreateTheTask
+            Сохранить
         </button>
     </form>
 </div>

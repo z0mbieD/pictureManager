@@ -11,13 +11,14 @@ namespace PictureManager
 {
     public class Picture : Entity<int>
     {
-        [ForeignKey("Id")]
+        public virtual User AssignedUser { get; set; }
+        public virtual int? UserId { get; set; }
         public virtual string PictureName { get; set; }
         public virtual string Tags { get; set; }
         public virtual string Description { get; set; }
         public virtual DateTime DateAdded { get; set; }
-        public virtual byte[] PictureFile { get; set; }
         public virtual string PictureMimeType { get; set; }
+        public virtual string PictureData { get; set; }
 
         public Picture()
         {

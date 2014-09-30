@@ -1,0 +1,20 @@
+﻿<div ng-controller="app.controllers.views.picture.pictures as vm">
+    <div class="input-group">
+        <span class="input-group-addon glyphicon glyphicon-search"></span>
+        <input type="text" class="form-control" ng-model="searchText" placeholder="Поиск..." />
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-xs-4" ng-repeat="picture in vm.pictures | filter:searchText" ng-show="picture.assignedUser.id > 0">
+            <a href="" data-ng-click="goToPicture(picture)">
+                <h2><span class="glyphicon glyphicon-plus"style="z-index: 5; position: absolute; top: 285px; left: 283px;"></span></h2>
+            </a>
+            <img class="img-rounded" width="300" src="data:{{picture.pictureMimeType}};base64,{{picture.pictureData}}" />
+            <br />
+            <h4><span class="picture-picturename">{{picture.pictureName}}</span></h4>
+            <span class="picture-dateadded">{{picture.description}}</span>
+            <br />
+            <span class="picture-dateadded">{{picture.tags}}</span>           
+        </div>
+    </div>
+</div>    

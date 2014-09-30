@@ -33,6 +33,10 @@ namespace PictureManager
             DynamicApiControllerBuilder
                 .For<IUserAppService>("picturemanager/user")
                 .Build();
+
+            DynamicApiControllerBuilder
+                .For<ICommentAppService>("picturemanager/comment")
+                .Build();
         }
     }
 }

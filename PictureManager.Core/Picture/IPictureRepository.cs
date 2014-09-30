@@ -9,6 +9,6 @@ namespace PictureManager
 {
     public interface IPictureRepository : IRepository<Picture, int>
     {
-        List<Picture> GetAllPictures();
+        List<Picture> GetAllPictures(int? userId);
     }
 }

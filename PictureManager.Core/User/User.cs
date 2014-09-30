@@ -9,9 +9,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PictureManager
 {
-    public class User : Entity<int>
+    public class User : Entity
     {
-        [ForeignKey("Id")]
         public virtual string Login { get; set; }
         public virtual string Password { get; set; }
     }

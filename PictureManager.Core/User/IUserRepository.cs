@@ -10,5 +10,7 @@ namespace PictureManager
     public interface IUserRepository : IRepository<User, int>
     {
         List<User> GetAllUsers();
+        User GetUser(string Login, string Password);
+        int GetUserId(string Login);
     }
 }

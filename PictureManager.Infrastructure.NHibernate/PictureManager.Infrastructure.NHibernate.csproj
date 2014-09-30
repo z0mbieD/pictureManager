@@ -88,7 +88,9 @@
   <ItemGroup>
     <Compile Include="DataConfig.cs" />
     <Compile Include="DbMigrations\VersionTable.cs" />
+    <Compile Include="NHibernate\EntityMappings\CommentMap.cs" />
     <Compile Include="NHibernate\EntityMappings\UserMap.cs" />
+    <Compile Include="NHibernate\Repositories\CommentRepository.cs" />
     <Compile Include="NHibernate\Repositories\UserRepository.cs" />
     <Compile Include="PictureManagerDataModule.cs" />
     <Compile Include="NHibernate\EntityMappings\PictureMap.cs" />

@@ -1,18 +1,23 @@
 ﻿(function () {
     var app = angular.module('app');
 
-    var controllerId = 'app.controllers.views.picture.picture';
+    var controllerId = 'app.controllers.views.user.users';
     app.controller(controllerId, [
-        '$scope', 'abp.services.picturemanager.picture',
-        function ($scope, pictureService) {
+        '$scope', '$rootScope', '$location', 'abp.services.picturemanager.user',
+        function ($scope, $rootScope, $location, userService) {
             var vm = this;
 
             vm.localize = abp.localization.getSource('PictureManager');
-            vm.pictures = [];     
+            vm.users = [];     
 
-            pictureService.getPictures().success(function (data) {
-                vm.pictures = data.pictures;
+            userService.getUsers().success(function (data) {
+                vm.users = data.users;
             });
+
+            $scope.goToProfile = function (userObject) {
+                $rootScope.userObject = userObject;
+                $location.path('/profile');
+            }
         }    
     ]);
 })();

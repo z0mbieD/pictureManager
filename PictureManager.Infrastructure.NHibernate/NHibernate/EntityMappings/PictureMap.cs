@@ -16,7 +16,9 @@ namespace PictureManager
             Map(x => x.Tags);
             Map(x => x.Description);
             Map(x => x.DateAdded);
-            Map(x => x.PictureFile);
+            Map(x => x.PictureMimeType);
+            Map(x => x.PictureData).Length(1000000);
+            References(x => x.AssignedUser).Column("UserId").LazyLoad();
         }
     }
 }

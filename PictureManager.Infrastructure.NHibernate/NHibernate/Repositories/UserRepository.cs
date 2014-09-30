@@ -7,6 +7,7 @@ using Abp.Domain.Repositories;
 using Abp.Domain.Repositories.NHibernate;
 using NHibernate;
 using NHibernate.Linq;
+using Abp.Application.Services;
 
 namespace PictureManager
 {
@@ -15,15 +16,40 @@ namespace PictureManager
         public List<User> GetAllUsers()
         {
             var query = GetAll();
-           // var query = Session.Query<Picture>();
-
-          //  if (Id.HasValue)
-           // {
-                query = query.Where(user => user.Id > 0);
-           // }
+            query = query.Where(user => user.Id > 0);
 
             return query
                 .ToList();
+        }
+
+        public User GetUser(string Login, string Password)
+        {
+            var query = GetAll();
+            query = query.Where(user => user.Login == Login && user.Password == Password);            
+            var result = query.ToList();
+            var resultUser = new User();
+            
+            if (result.Count > 0)
+            {
+                resultUser = result[0];
+            }
+            
+            return resultUser;          
+        }
+
+        public int GetUserId(string Login)
+        {
+            var query = GetAll();
+            query = query.Where(user => user.Login == Login);
+            var result = query.ToList();
+            var resultId = 0;
+
+            if (result.Count > 0)
+            {
+                resultId = result[0].Id;
+            }
+
+            return resultId;
         }
     }
 }

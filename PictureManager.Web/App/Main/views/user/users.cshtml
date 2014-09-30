@@ -1,10 +1,13 @@
-﻿<div ng-controller="app.controllers.views.picture.picture as vm">
-    <h1>@string.Format("Загруженные изображения")</h1>
-
-    <ul class="list-group" ng-repeat="picture in vm.pictures">
+﻿<div ng-controller="app.controllers.views.user.users as vm">
+    <h3>@string.Format("Пользователи")</h3>
+    <div class="input-group">
+        <span class="input-group-addon glyphicon glyphicon-search"></span>
+        <input type="text" class="form-control" ng-model="searchText" placeholder="Поиск..." />
+    </div>
+    <br />
+    <ul class="list-group" ng-repeat="user in vm.users | filter:searchText">
         <div class="list-group-item">
-            <span class="picture-picturename">{{picture.pictureName}}</span>
-            <span class="picture-dateadded">{{picture.dateAdded}}</span>
+            <a href="" data-ng-click="goToProfile(user)">{{user.login}}</a>
         </div>
     </ul>
 </div>

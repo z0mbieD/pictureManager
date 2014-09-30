@@ -192,9 +192,12 @@
     <Content Include="App\Main\views\layout\layout.js" />
     <Content Include="App\Main\views\home\home.js" />
     <Content Include="App\Main\views\about\about.js" />
-    <Content Include="App\Main\views\picture\newpicture.js" />
     <Content Include="App\Main\views\picture\picture.js" />
+    <Content Include="App\Main\views\picture\newpicture.js" />
+    <Content Include="App\Main\views\picture\pictures.js" />
+    <Content Include="App\Main\views\user\login.js" />
     <Content Include="App\Main\views\user\singup.js" />
+    <Content Include="App\Main\views\user\profile.js" />
     <Content Include="App\Main\views\user\users.js" />
     <Content Include="Content\bootstrap-cosmo.min.css" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -305,11 +308,14 @@
     <Content Include="Scripts\angular.min.js.map" />
     <Content Include="Abp\Framework\styles\abp.less" />
     <Content Include="Abp\Framework\styles\abp.css.map" />
-    <Content Include="App\Main\views\picture\picture.cshtml" />
+    <Content Include="App\Main\views\picture\pictures.cshtml" />
     <Content Include="App\Main\views\picture\newpicture.cshtml" />
     <Content Include="Resharper.feature" />
     <Content Include="App\Main\views\user\users.cshtml" />
     <Content Include="App\Main\views\user\singup.cshtml" />
+    <Content Include="App\Main\views\user\login.cshtml" />
+    <Content Include="App\Main\views\picture\picture.cshtml" />
+    <Content Include="App\Main\views\user\profile.cshtml" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\FileAPI.flash.swf" />
     <Content Include="Scripts\FileAPI.min.js" />
@@ -611,7 +617,9 @@
     <Content Include="Scripts\others\spinjs\spin.js" />
     <Content Include="Scripts\toastr.js" />
     <Content Include="Scripts\toastr.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Scripts\jquery-2.1.1.min.map" />
     <Content Include="Scripts\toastr.min.js.map" />
     <Content Include="Views\_ViewStart.cshtml" />
